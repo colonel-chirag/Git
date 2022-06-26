@@ -76,3 +76,31 @@ $ git config --global user.email "user_email@interviewbit.com"
 git clone is a command which is used to clone or copy a target repository.
 
 The following image shows an illustration of the git clone command. Using the command, a copy
+![image](https://user-images.githubusercontent.com/59536110/175824466-251792d9-82fc-49a4-b855-13b6743ec67e.png)
+How to clone a repository?
+
+Open Github and navigate to the target repository which needs to be cloned.
+Under the repo name, click on the tab Clone or Download.
+An option named Clone with HTTPS appears.
+Copy the Clone URL.
+Open a command line and use the command: git clone <repo_URL>
+In this way, a clone of the target repository can be made.
+
+Clone a specific branch from the repository.
+
+A very useful feature of the git clone is that it allows cloning a specific branch of the target repository without having to clone the entire repository.
+To clone a specific branch, you need to use the command -b to specify the branch. The following command is used:
+
+git clone -b <Branch_name> <Repo_URL>
+6. Git Branch
+A branch in Git is used to keep your changes until they are ready.
+You can do your work on a branch while the main branch(main) remains stable. After you are done with your work, you can merge it to the main branch.
+For creating a new branch, the following command is used :
+
+git branch <branch_name>
+For example -
+
+git branch demo
+This command creates a new branch named demo from the Main branch:
+
+
