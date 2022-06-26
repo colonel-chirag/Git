@@ -102,5 +102,42 @@ For example -
 
 git branch demo
 This command creates a new branch named demo from the Main branch:
+![image](https://user-images.githubusercontent.com/59536110/175824512-db344463-609a-419b-abaf-78fc78d69a61.png)
+The diagram shows there is the main branch.
+There are two more branches small feature and large feature working separately.
+Once the work is complete for the two separate branches, you can merge it into the main branch.
+7. Git Switch Branch
+Using the git checkout command, we can switch from one branch to another.
 
+Command :
+
+git checkout <branch_name>
+8. Create Remote Branches
+Git doesn’t allow creating a new and isolated branch on a remote repository. But, you to make a branch remote, we can push an existing local branch.
+
+The steps to create a remote branch is as follows:
+
+Create a local branch and switch to that branch:
+git checkout -b <branch_name>
+Push in the local branch:
+git push -u origin <branch_name>
+Note: origin is the default name of remote
+Now, if someone wants to fetch some information, one can simply run:
+
+git fetch
+git checkout <branch_name>
+9. Delete Branches
+Once the work is done on a branch and merged with the Main branch, one can delete the branch.
+
+The following command is used to delete branches:
+
+git delete -d <branch_name>
+Note: This command deletes a copy of the branch, but the original branch can still exist in remote repositories.
+To delete remote branches, use the following command:
+
+git push origin --delete <branch_name>
+10. Git Checkout
+The Git checkout is used to command Git on which branch changes have to be made. Checkout is simply used to change branches in repositories. It can also be used to restore files.
+
+The following image describes the scenario of creating different branches and switching to a brach when needed, i.e. we can switch from the main brach to a different branch and vice versa.
 
