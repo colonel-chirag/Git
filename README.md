@@ -140,4 +140,5 @@ git push origin --delete <branch_name>
 The Git checkout is used to command Git on which branch changes have to be made. Checkout is simply used to change branches in repositories. It can also be used to restore files.
 
 The following image describes the scenario of creating different branches and switching to a brach when needed, i.e. we can switch from the main brach to a different branch and vice versa.
+![image](https://user-images.githubusercontent.com/59536110/175824711-1472053a-d40a-4859-8981-70d755e1a196.png)
 
