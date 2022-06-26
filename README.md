@@ -46,3 +46,33 @@ In Git, the workflow is mainly divided into three areas -
 Working directory - This is the area where you modify your existing files.
 Staging area (Index) - In this, the files in your working directory are staged and snapshots are added.
 Git directory or repository - It is basically where you perform all the changes that need to be made i.e. perform commits to branch, checkout branch, make changes etc.
+![image](https://user-images.githubusercontent.com/59536110/175824377-5347f105-c1b5-4588-96e6-aba7ee856442.png)
+4. Install Git: Installation in Windows/Linux/Mac OS X
+Install Git on Windows -
+
+Download the latest version of Git from here.
+After starting the installer, follow the command on the screen and press Next to complete the installation.
+Open Command Prompt and run the following command to configure Git on your PC using your username and email.
+$ git config --global user.name "username" 
+$ git config --global user.email "user_emails@interviewbit.com"
+This configures Git on your PC with your username and email.
+
+Install Git on Linux -
+
+You can install Git on Linux using the command apt-get :
+$ sudo apt-get update
+$ sudo apt-get install git
+Configure your username and email using the following command:
+$ git config --global user.name "user_name"
+$ git config --global user.email "user_email@interviewbit.com"
+Install Git on Mac OS -
+
+Download the latest version of Git from here.
+Open the installer and follow the instructions.
+Now since Git is installed, open command line and configure your username and user email.
+$ git config --global user.name "user_name"
+$ git config --global user.email "user_email@interviewbit.com"
+5. Git Clone
+git clone is a command which is used to clone or copy a target repository.
+
+The following image shows an illustration of the git clone command. Using the command, a copy
