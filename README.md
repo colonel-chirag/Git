@@ -20,6 +20,7 @@ Every developer has an entire copy of the code on their local system.
 Any change made to the source code can be tracked by others.
 There is regular communication between the developers.
 Therefore, for large projects that involve thousands of developers, Git helps those developers to work collaboratively and efficiently in a structured manner. Learn More.
+![image](https://user-images.githubusercontent.com/59536110/175824209-b187560e-0d11-4c44-881e-d4e7242133ec.png)
 
 Learn GIT: Basics to Advanced Concepts
 1. Uses of Git
