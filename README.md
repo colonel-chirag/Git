@@ -344,6 +344,60 @@ Git bisect goes through all the previous commits and uses binary search to find 
 
 The git bisect command is used to find the bisect position as shown. It bisects (divides) your history between the good and the bad commit range. It then moves through every commit id between this range and at each snapshot it allows you to test the code.
 
+![image](https://user-images.githubusercontent.com/59536110/176001534-3d4764e1-fafc-4a49-9731-b0f6e72f2368.png)
+It is applied as follows:
+
+git bisect start - Starts the bisect
+git bisect good v1.0 - Mention the last working commit.
+git bisect bad- Mentioning that the current commit has a bug.
+It will return the commit which causes the bug and one can debug the issue efficiently.
+
+git blame
+git blame is used to know who/which commit is responsible for the latest changes in the repository. The author/commit of each line is visible through this.
+
+Command:
+
+git blame <file_name>
+This command shows the commits which are responsible for changes of all lines of code.
+
+git cherry-pick
+Choosing a commit from one branch and applying it to another is known as cherry picking in Git. Following are the steps to cherry pick a commit:
+
+Visit the branch you want to apply to commit and use the following command:
+git switch master
+Run the following command:
+git cherry-pick <commit_id
+Git Submodules
+
+Submodules are a tool that allows attaching an external repository inside another repository at a specific path. It allows us to keep a git repository as a subdirectory of another git repository.
+
+Commands:
+
+Add git submodule: This takes the git URL as the parameter and clones the pointer repo as a submodule. The syntax to add git submodule is:
+git submodule add <URL_link>
+git submodule init
+git submodule init is to copy the mapping from .gitmodules file into ./.git/config file. git submodule init has extend behavior in which it accepts a list of explicit module names.
+
+This enables a workflow of activating only specific submodules that are needed for work on the repository.
+
+Command:
+
+git submodule init
+Git Subtrees
+
+git subtree lets you nest one repository inside another as a sub-directory. It is one of several ways Git projects can manage project dependencies.
+git-subtree is a wrapper shell script to facilitate a more natural syntax. This is actually still a part of contrib and not fully integrated into git with the usual man pages.
+A subtree is just a subdirectory that can be committed to, branched from, and merged along with your project in any way you want.
+Commands:
+
+add: Let’s assume that you have a local repository that you would like
+to add an external vendor library to. In this case we will add the git-subtree repository as a subdirectory of your already existing git-extensions repository in ~/git-extensions/:
+git subtree add --prefix=git-subtree --squash \<Git_repo_link>
+pull : It is similar to pull from the repository with added prefix.
+Command:
+git subtree pull --prefix <URL_link>
+Git Submodules VS Subtrees
+
 
 
 
