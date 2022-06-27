@@ -142,3 +142,37 @@ The Git checkout is used to command Git on which branch changes have to be made.
 The following image describes the scenario of creating different branches and switching to a brach when needed, i.e. we can switch from the main brach to a different branch and vice versa.
 ![image](https://user-images.githubusercontent.com/59536110/175824711-1472053a-d40a-4859-8981-70d755e1a196.png)
 
+Git Checkout Branch
+To checkout or create a branch, the following command can be used:
+
+git checkout -b  <branch_name>
+This will simply switch to the new branch branch_name.
+
+Git Checkout Tag
+While working on a large codebase, it because easy to have some reference point. That is where the checkout tag is used.
+
+The following command is used to specify the tagname as well as the branch that will be checked out.
+
+git checkout tag</tag> <branch_name>
+11. GIT Status
+git status is mainly used to display the state of the staging area and the repository. It helps us to track all the changes made, point out untracked files.
+
+Command:
+
+git status
+git status after a file is added
+
+Add files to the repo using the following command:
+touch file.txt
+Execute git status.
+A message would be displayed, describing the changes done to the repository.
+git status after a file is deleted after commit
+
+Delete the file using the following command:
+git rm file.txt
+Execute git status.
+A message would be displayed, describing the file has been deleted.
+12. Git Commit
+Git commit is used to record all the changes in the repository. The git commit will commit all the changes and make a commit-id for the same for tracking down the changes made as shown in the image below.
+
+As shown in the image, the command git commit creates a commit-id to track down changes and commits all the changes to the git repository.
