@@ -176,3 +176,4 @@ A message would be displayed, describing the file has been deleted.
 Git commit is used to record all the changes in the repository. The git commit will commit all the changes and make a commit-id for the same for tracking down the changes made as shown in the image below.
 
 As shown in the image, the command git commit creates a commit-id to track down changes and commits all the changes to the git repository.
+![image](https://user-images.githubusercontent.com/59536110/175998865-da1c5c77-3ca0-4537-883a-f8575ee334ad.png)
