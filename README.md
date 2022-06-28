@@ -397,7 +397,8 @@ pull : It is similar to pull from the repository with added prefix.
 Command:
 git subtree pull --prefix <URL_link>
 Git Submodules VS Subtrees
-
-
+![image](https://user-images.githubusercontent.com/59536110/176141667-b7387e4e-0dd5-43f4-9e0a-f6e8f095f501.png)
+![image](https://user-images.githubusercontent.com/59536110/176141790-e8f0c87f-ae54-4d5f-88dd-78e39da3895a.png)
+![image](https://user-images.githubusercontent.com/59536110/176141879-fd7c6dd6-3077-41d5-ab84-a88e197e1a81.png)
 
 
